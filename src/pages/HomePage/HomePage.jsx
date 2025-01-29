@@ -207,7 +207,7 @@ const Homepage = () => {
         <Row className="mb-4">
           <Col xs={12} md={6}>
             <img
-              src="public/imagees/Dr.Juan Cabrera 61.jpg"
+              src="/imagees/Dr.Juan Cabrera 61.jpg"
               alt="Imagen 1"
               className="image"
               style={{ width: "100%", borderRadius: "8px" }}
@@ -260,7 +260,7 @@ const Homepage = () => {
           </Col>
           <Col xs={12} md={6}>
             <img
-              src="public/imagees/DSC_0143.JPG"
+              src="/imagees/DSC_0143.JPG"
               alt="Imagen 6"
               className="image"
               style={{ width: "100%", borderRadius: "8px" }}
@@ -270,7 +270,7 @@ const Homepage = () => {
         <Row className="mb-4">
           <Col xs={12} md={6}>
             <img
-              src="public/imagees/Imagen 048.jpg"
+              src="/imagees/Imagen 048.jpg"
               alt="Imagen 1"
               className="image"
               style={{ width: "100%", borderRadius: "8px" }}
