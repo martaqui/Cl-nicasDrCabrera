@@ -1,6 +1,7 @@
+import React from "react";
 import { Row, Col } from "react-bootstrap";
-import "./HomePage.css"; // Si necesitas algún estilo adicional
-import ContactForm from "../../components/ContactForm/ContactForm";
+import "./HomePage.css";
+import ContactForm from "../../components/ContactForm/ContactForm.jsx";
 
 const Homepage = () => {
   return (

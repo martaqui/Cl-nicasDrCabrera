@@ -1,3 +1,4 @@
+import React from "react";
 import { Navbar, Container } from "react-bootstrap";
 import "./Navbar.css";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
@@ -9,7 +10,7 @@ const NavBar = () => {
         <Navbar.Brand href="#home">
           <img
             alt="Logo"
-            src="public/imagees/logo clinicas doctor juan cabrera.png"
+            src="imagees/logo clinicas doctor juan cabrera.png"
             width="300"
             height="600"
             className="logo"
