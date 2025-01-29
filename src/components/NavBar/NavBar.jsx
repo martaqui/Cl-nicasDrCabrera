@@ -1,7 +1,6 @@
 import { Navbar, Container } from "react-bootstrap";
 import "./NavBar.css";
 import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
-
 const NavBar = () => {
   return (
     <Navbar className="custom-navbar" expand="lg">
