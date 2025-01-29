@@ -1,0 +1,74 @@
+.custom-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: white !important; /* Fondo blanco */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+.navbar-content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  max-height: 120px;
+  margin-bottom: 10px;
+}
+
+/* Contenedor para los íconos y el correo */
+.social-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Íconos dentro de un círculo */
+.social-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.icon {
+  font-size: 0.8rem; /* Íconos más pequeños */
+  background-color: rgb(13, 228, 207);
+  color: white;
+  border-radius: 50%; /* Hace el círculo */
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  background-color: white;
+  color: rgb(13, 228, 207);
+  border: 1px solid rgb(13, 228, 207);
+}
+
+/* Estilo del correo */
+.email-link {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgb(13, 228, 207);
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+/* Texto debajo del correo */
+.clinic-location {
+  font-size: 0.8rem;
+  color: black;
+  margin-top: -5px;
+}

@@ -1,0 +1,41 @@
+footer {
+  background-color: #e2e6e9; /* Fondo oscuro */
+  color: #404040; /* Texto blanco */
+  padding: 20px 0; /* Espaciado arriba y abajo */
+  margin-top: 30px; /* Espacio entre el contenido principal y el footer */
+  text-align: center;
+}
+.footer h5 {
+  font-size: 0.9rem;
+}
+.footer h3 {
+  font-weight: 90;
+}
+.footer-left {
+  text-align: left;
+}
+.footer a {
+  color: #404040; /* Color blanco para los enlaces */
+  text-decoration: none; /* Quitamos el subrayado */
+  margin-right: 8px;
+}
+.footer-links {
+  display: inline-flex; /* Alineamos todo en línea */
+  align-items: center; /* Centramos verticalmente */
+  gap: 8px; /* Espaciado entre elementos */
+}
+.footer a:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+.footer p {
+  margin: 0; /* Quitamos márgenes para que los párrafos no tengan espacio extra */
+}
+.footer-images {
+  margin-top: 10px; /* Espacio entre los enlaces y las imágenes */
+}
+.footer-icon {
+  width: 50px; /* Tamaño mucho más pequeño */
+  height: auto;
+  vertical-align: middle; /* Alineación con el texto */
+}
