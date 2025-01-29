@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import "./Footer.css";
+import React from "react";
 
 const Footer = () => {
   return (
@@ -45,9 +46,10 @@ const Footer = () => {
               <a
                 href="https://dataevalua.com/clinicasdoctorjuancabrera-com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
-                  src="public/rgpd_blue.png"
+                  src="imagees/rgpd_blue.png"
                   alt="Icono 1"
                   className="footer-icon"
                 />
@@ -55,9 +57,10 @@ const Footer = () => {
               <a
                 href="https://dataevalua.com/clinicasdoctorjuancabrera-com/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <img
-                  src="public/lssi_blue.png"
+                  src="imagees/lssi_blue.png"
                   alt="Icono 2"
                   className="footer-icon"
                 />
