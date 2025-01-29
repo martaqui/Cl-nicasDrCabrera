@@ -1,5 +1,5 @@
 import { Row, Col } from "react-bootstrap";
-import "./Homepage.css"; // Si necesitas algún estilo adicional
+import "./HomePage.css"; // Si necesitas algún estilo adicional
 import ContactForm from "../../components/ContactForm/ContactForm";
 
 const Homepage = () => {
