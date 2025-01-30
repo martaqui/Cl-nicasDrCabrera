@@ -1,24 +1,40 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
-
+import ReCAPTCHA from "react-google-recaptcha";
 import "./ContactForm.css";
 import { useNavigate } from "react-router-dom";
+
 const ContactForm = () => {
   const [state, handleSubmit] = useForm("xrbeqneb");
   const navigate = useNavigate();
+  const [recaptchaValue, setRecaptchaValue] = useState(null);
+
+  // Función para manejar la respuesta del CAPTCHA
+  const handleCaptchaChange = (value) => {
+    setRecaptchaValue(value);
+  };
 
   if (state.succeeded) {
-    // Redirigir al home cuando el formulario se haya enviado con éxito
-    navigate("/");
+    navigate("/"); // Redirige al home cuando el formulario se ha enviado con éxito
     return (
       <p>
-        ¡Gracias por contactarnos!, nos pondremos en contacto con usted lo
-        antes. posible
+        ¡Gracias por contactarnos!, nos pondremos en contacto con usted lo antes
+        posible.
       </p>
     );
   }
+
   return (
-    <form onSubmit={handleSubmit}>
+    <form
+      onSubmit={(e) => {
+        e.preventDefault();
+        if (!recaptchaValue) {
+          alert("Por favor, completa el CAPTCHA.");
+          return;
+        }
+        handleSubmit(e); // Si el captcha está validado, se envía el formulario.
+      }}
+    >
       <div>
         <input
           id="nombre"
@@ -69,6 +85,14 @@ const ContactForm = () => {
           required
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
+      </div>
+
+      {/* Aquí agregamos el CAPTCHA */}
+      <div>
+        <ReCAPTCHA
+          sitekey="6Lf0zscqAAAAAN2hNO0W8S9zhUg_VFXM5hTN9IMX" // Tu clave pública
+          onChange={handleCaptchaChange}
+        />
       </div>
 
       <button type="submit" disabled={state.submitting}>
