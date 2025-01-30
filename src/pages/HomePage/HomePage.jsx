@@ -53,8 +53,8 @@ const Homepage = () => {
               onClick={() => handleShow("/imagees/02.jpg")}
             />
           </Col>
-          <Col xs={12}></Col>
         </Row>
+
         {/* Row 3: Imagen arriba, texto abajo */}
         <Row className="mb-4">
           <Col xs={12}>
@@ -88,9 +88,6 @@ const Homepage = () => {
               onClick={() => handleShow("/imagees/12.jpg")}
             />
           </Col>
-          <Col xs={12}>
-            <p className="description"></p>
-          </Col>
         </Row>
         {/* Row 5: Imagen arriba, texto abajo */}
         <Row className="mb-4">
@@ -104,30 +101,29 @@ const Homepage = () => {
             />
           </Col>
         </Row>
-        {/* Row 6: Imagen arriba, texto abajo */}
-        {/* Row 6: Imagen arriba, texto abajo */}
         <Row className="mb-4">
           <Col xs={12}>
             <img
               src="/imagees/14.jpg"
-              alt="Imagen 6"
+              alt="Imagen 5"
               className="image"
               style={{ width: "100%", height: "auto", borderRadius: "8px" }}
-              onClick={() => handleShow("/imagees/14.jpg")}
+              onClick={() => handleShow("/imagees/13.jpg")}
             />
           </Col>
-
-          {/* Imagen adicional agregada aquí para mantener la distribución */}
+        </Row>
+        <Row className="mb-4">
           <Col xs={12}>
             <img
-              src="/imagees/Imagen 061.jpg" // Reemplaza con la ruta correcta
-              alt="Imagen adicional"
-              className="image-61"
+              src="/imagees/Imagen 061.jpg"
+              alt="Imagen 5"
+              className="image"
               style={{ width: "100%", height: "auto", borderRadius: "8px" }}
-              onClick={() => handleShow("/imagees/Imagen 061.jpg")} // Ajusta la ruta de la imagen
+              onClick={() => handleShow("/imagees/13.jpg")}
             />
           </Col>
-
+        </Row>
+        <Row className="mb-4">
           <Col xs={12}>
             <p className="description">
               Oferim mobiliari, instal·lacions i serveis comuns. Disposem d'una
@@ -141,7 +137,7 @@ const Homepage = () => {
             </p>
           </Col>
         </Row>
-        s{/* Row 7: Imagen arriba, texto abajo */}
+        {/* Row 7: Imagen arriba, texto abajo */}
         <Row className="mb-4">
           <Col xs={12}>
             <img
@@ -169,15 +165,6 @@ const Homepage = () => {
         </Row>
         {/* Row 9: Imagen arriba, texto abajo */}
         <Row className="mb-4">
-          <Col xs={12}>
-            <img
-              src="/imagees/Imagen 048.jpg"
-              alt="Imagen 9"
-              className="image"
-              style={{ width: "100%", height: "auto", borderRadius: "8px" }}
-              onClick={() => handleShow("/imagees/Imagen 048.jpg")}
-            />
-          </Col>
           <Col xs={12}>
             <p className="description">
               Consultoris independents per poder deixar els equips propis. Entre
