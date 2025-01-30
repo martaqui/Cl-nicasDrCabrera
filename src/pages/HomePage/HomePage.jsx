@@ -122,26 +122,7 @@ const Homepage = () => {
             />
           </Col>
           <Col xs={12} md={6}>
-            <p className="description">
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
-              leo molestie, rutrum mauris vitae, euismod neque. Phasellus
-              mattis, ex eget luctus ultrices, est dui eleifend nulla, eget
-              pharetra justo turpis id nibh. Aenean et malesuada magna, sed
-              sagittis dolor. Curabitur imperdiet eros quis mi aliquet ultrices.
-              Donec commodo aliquet vestibulum. Vivamus pharetra nulla metus, ac
-              facilisis erat fermentum feugiat. Vivamus nunc quam, dignissim
-              vitae nisi et, tristique volutpat ligula. Integer a ex efficitur
-              elit eleifend posuere. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Sed vel leo molestie, rutrum mauris vitae,
-              euismod neque. Phasellus mattis, ex eget luctus ultrices, est dui
-              eleifend nulla, eget pharetra justo turpis id nibh. Aenean et
-              malesuada magna, sed sagittis dolor. Curabitur imperdiet eros quis
-              mi aliquet ultrices. Donec commodo aliquet vestibulum. Vivamus
-              pharetra nulla metus, ac facilisis erat fermentum feugiat. Vivamus
-              nunc quam, dignissim vitae nisi et, tristique volutpat ligula.
-              Integer a ex efficitur elit eleifend posuere.
-            </p>
+            <p className="description"> </p>
           </Col>
         </Row>
 
@@ -149,23 +130,14 @@ const Homepage = () => {
           <Col xs={12} md={6}>
             <p className="description">
               {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
-              leo molestie, rutrum mauris vitae, euismod neque. Phasellus
-              mattis, ex eget luctus ultrices, est dui eleifend nulla, eget
-              pharetra justo turpis id nibh. Aenean et malesuada magna, sed
-              sagittis dolor. Curabitur imperdiet eros quis mi aliquet ultrices.
-              Donec commodo aliquet vestibulum. Vivamus pharetra nulla metus, ac
-              facilisis erat fermentum feugiat. Vivamus nunc quam, dignissim
-              vitae nisi et, tristique volutpat ligula. Integer a ex efficitur
-              elit eleifend posuere. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Sed vel leo molestie, rutrum mauris vitae,
-              euismod neque. Phasellus mattis, ex eget luctus ultrices, est dui
-              eleifend nulla, eget pharetra justo turpis id nibh. Aenean et
-              malesuada magna, sed sagittis dolor. Curabitur imperdiet eros quis
-              mi aliquet ultrices. Donec commodo aliquet vestibulum. Vivamus
-              pharetra nulla metus, ac facilisis erat fermentum feugiat. Vivamus
-              nunc quam, dignissim vitae nisi et, tristique volutpat ligula.
-              Integer a ex efficitur elit eleifend posuere.
+              Oferim mobiliari, instal·lacions i serveis comuns. Disposem d'una
+              àmplia recepció, 2 sales d'espera, 4 lavabos (1 adaptat), 2
+              despatxos per a administració, magatzem, sala de reunions i
+              vestidor per al personal. <hr /> Ofrecemos mobiliario,
+              instalaciones y servicios comunes. Disponemos de amplia recepción,
+              2 salas de espera, 4 aseos (1 adaptado), 2 despachos para
+              administración, almacén, sala de reuniones y vestuario para
+              personal.
             </p>
           </Col>
           <Col xs={12} md={6}>
@@ -189,49 +161,12 @@ const Homepage = () => {
             />
           </Col>
           <Col xs={12} md={6}>
-            <p className="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
-              leo molestie, rutrum mauris vitae, euismod neque. Phasellus
-              mattis, ex eget luctus ultrices, est dui eleifend nulla, eget
-              pharetra justo turpis id nibh. Aenean et malesuada magna, sed
-              sagittis dolor. Curabitur imperdiet eros quis mi aliquet ultrices.
-              Donec commodo aliquet vestibulum. Vivamus pharetra nulla metus, ac
-              facilisis erat fermentum feugiat. Vivamus nunc quam, dignissim
-              vitae nisi et, tristique volutpat ligula. Integer a ex efficitur
-              elit eleifend posuere. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Sed vel leo molestie, rutrum mauris vitae,
-              euismod neque. Phasellus mattis, ex eget luctus ultrices, est dui
-              eleifend nulla, eget pharetra justo turpis id nibh. Aenean et
-              malesuada magna, sed sagittis dolor. Curabitur imperdiet eros quis
-              mi aliquet ultrices. Donec commodo aliquet vestibulum. Vivamus
-              pharetra nulla metus, ac facilisis erat fermentum feugiat. Vivamus
-              nunc quam, dignissim vitae nisi et, tristique volutpat ligula.
-              Integer a ex efficitur elit eleifend posuere.
-            </p>
+            <p className="description"></p>
           </Col>
         </Row>
         <Row className="mb-4">
           <Col xs={12} md={6}>
-            <p className="description">
-              {" "}
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
-              leo molestie, rutrum mauris vitae, euismod neque. Phasellus
-              mattis, ex eget luctus ultrices, est dui eleifend nulla, eget
-              pharetra justo turpis id nibh. Aenean et malesuada magna, sed
-              sagittis dolor. Curabitur imperdiet eros quis mi aliquet ultrices.
-              Donec commodo aliquet vestibulum. Vivamus pharetra nulla metus, ac
-              facilisis erat fermentum feugiat. Vivamus nunc quam, dignissim
-              vitae nisi et, tristique volutpat ligula. Integer a ex efficitur
-              elit eleifend posuere. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Sed vel leo molestie, rutrum mauris vitae,
-              euismod neque. Phasellus mattis, ex eget luctus ultrices, est dui
-              eleifend nulla, eget pharetra justo turpis id nibh. Aenean et
-              malesuada magna, sed sagittis dolor. Curabitur imperdiet eros quis
-              mi aliquet ultrices. Donec commodo aliquet vestibulum. Vivamus
-              pharetra nulla metus, ac facilisis erat fermentum feugiat. Vivamus
-              nunc quam, dignissim vitae nisi et, tristique volutpat ligula.
-              Integer a ex efficitur elit eleifend posuere.
-            </p>
+            <p className="description"></p>
           </Col>
           <Col xs={12} md={6}>
             <img
@@ -255,23 +190,11 @@ const Homepage = () => {
           </Col>
           <Col xs={12} md={6}>
             <p className="description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel
-              leo molestie, rutrum mauris vitae, euismod neque. Phasellus
-              mattis, ex eget luctus ultrices, est dui eleifend nulla, eget
-              pharetra justo turpis id nibh. Aenean et malesuada magna, sed
-              sagittis dolor. Curabitur imperdiet eros quis mi aliquet ultrices.
-              Donec commodo aliquet vestibulum. Vivamus pharetra nulla metus, ac
-              facilisis erat fermentum feugiat. Vivamus nunc quam, dignissim
-              vitae nisi et, tristique volutpat ligula. Integer a ex efficitur
-              elit eleifend posuere. Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Sed vel leo molestie, rutrum mauris vitae,
-              euismod neque. Phasellus mattis, ex eget luctus ultrices, est dui
-              eleifend nulla, eget pharetra justo turpis id nibh. Aenean et
-              malesuada magna, sed sagittis dolor. Curabitur imperdiet eros quis
-              mi aliquet ultrices. Donec commodo aliquet vestibulum. Vivamus
-              pharetra nulla metus, ac facilisis erat fermentum feugiat. Vivamus
-              nunc quam, dignissim vitae nisi et, tristique volutpat ligula.
-              Integer a ex efficitur elit eleifend posuere.
+              Poder deixar els equips propis. Entre les dues consultes hi ha una
+              sala petita, també exterior, per a esterilització i
+              emmagatzematge. <hr /> Consultorios independientes para poder
+              dejar los equipos propios.Entre las dos consultas hay una sala
+              pequeña también exterior para esterilización y almacenaje.
             </p>
           </Col>
         </Row>
