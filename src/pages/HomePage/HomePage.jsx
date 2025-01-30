@@ -54,17 +54,7 @@ const Homepage = () => {
               onClick={() => handleShow("/imagees/02.jpg")}
             />
           </Col>
-          <Col xs={12}>
-            <p className="description">
-              {" "}
-              Consultoris independents per poder deixar els equips propis. Entre
-              les dues consultes hi ha una sala petita, també exterior, per a
-              esterilització i emmagatzematge. <hr /> Consultorios
-              independientes para poder dejar los equipos propios.Entre las dos
-              consultas hay una sala pequeña también exterior para
-              esterilización y almacenaje.
-            </p>
-          </Col>
+          <Col xs={12}></Col>
         </Row>
 
         {/* Row 3: Imagen arriba, texto abajo */}
@@ -79,6 +69,7 @@ const Homepage = () => {
             />
           </Col>
           <Col xs={12}>
+            {" "}
             <p className="description">
               {" "}
               Situat a peu de carrer al Passeig de la Bonanova, està en perfecte
@@ -117,7 +108,7 @@ const Homepage = () => {
             />
           </Col>
           <Col xs={12}>
-            <p className="description">
+            {/* <p className="description">
               {" "}
               Oferim mobiliari, instal·lacions i serveis comuns. Disposem d'una
               àmplia recepció, 2 sales d'espera, 4 lavabos (1 adaptat), 2
@@ -127,7 +118,7 @@ const Homepage = () => {
               2 salas de espera, 4 aseos (1 adaptado), 2 despachos para
               administración, almacén, sala de reuniones y vestuario para
               personal.
-            </p>
+            </p> */}
           </Col>
         </Row>
 
@@ -142,7 +133,20 @@ const Homepage = () => {
               onClick={() => handleShow("/imagees/14.jpg")}
             />
           </Col>
-          <Col xs={12}></Col>
+          <Col xs={12}>
+            {" "}
+            <p className="description">
+              {" "}
+              Oferim mobiliari, instal·lacions i serveis comuns. Disposem d'una
+              àmplia recepció, 2 sales d'espera, 4 lavabos (1 adaptat), 2
+              despatxos per a administració, magatzem, sala de reunions i
+              vestidor per al personal. <hr /> Ofrecemos mobiliario,
+              instalaciones y servicios comunes. Disponemos de amplia recepción,
+              2 salas de espera, 4 aseos (1 adaptado), 2 despachos para
+              administración, almacén, sala de reuniones y vestuario para
+              personal.
+            </p>
+          </Col>
         </Row>
 
         {/* Row 7: Imagen arriba, texto abajo */}
@@ -156,19 +160,7 @@ const Homepage = () => {
               onClick={() => handleShow("/imagees/Dr.Juan Cabrera 61.jpg")}
             />
           </Col>
-          <Col xs={12}>
-            <p className="description">
-              {" "}
-              Oferim mobiliari, instal·lacions i serveis comuns. Disposem d'una
-              àmplia recepció, 2 sales d'espera, 4 lavabos (1 adaptat), 2
-              despatxos per a administració, magatzem, sala de reunions i
-              vestidor per al personal. <hr /> Ofrecemos mobiliario,
-              instalaciones y servicios comunes. Disponemos de amplia recepción,
-              2 salas de espera, 4 aseos (1 adaptado), 2 despachos para
-              administración, almacén, sala de reuniones y vestuario para
-              personal.
-            </p>{" "}
-          </Col>
+          <Col xs={12}></Col>
         </Row>
 
         {/* Row 8: Imagen arriba, texto abajo */}
@@ -182,9 +174,7 @@ const Homepage = () => {
               onClick={() => handleShow("/imagees/DSC_0143.JPG")}
             />
           </Col>
-          <Col xs={12}>
-            <p className="description"> </p>
-          </Col>
+          <Col xs={12}></Col>
         </Row>
 
         {/* Row 9: Imagen arriba, texto abajo */}
@@ -200,11 +190,12 @@ const Homepage = () => {
           </Col>
           <Col xs={12}>
             <p className="description">
-              Poder deixar els equips propis. Entre les dues consultes hi ha una
-              sala petita, també exterior, per a esterilització i
-              emmagatzematge. <hr /> Consultorios independientes para poder
-              dejar los equipos propios.Entre las dos consultas hay una sala
-              pequeña también exterior para esterilización y almacenaje.
+              Consultoris independents per poder deixar els equips propis. Entre
+              les dues consultes hi ha una sala petita, també exterior, per a
+              esterilització i emmagatzematge. <hr /> Consultorios
+              independientes para poder dejar los equipos propios.Entre las dos
+              consultas hay una sala pequeña también exterior para
+              esterilización y almacenaje.
             </p>
           </Col>
         </Row>
@@ -224,6 +215,23 @@ const Homepage = () => {
           </Col>
           <Col xs={12} md={6}>
             <ContactForm />
+          </Col>
+        </Row>
+        <Row className="mb-4">
+          <Col xs={12} md={6}>
+            <div className="p-3 border bg-light">
+              <h5>Contacto</h5>
+              <p>Inés Bach Tel: 653 00 43 34</p>
+            </div>
+          </Col>
+          <Col xs={12} md={6}>
+            <div className="p-3 border bg-light">
+              <h5></h5>
+              <p>
+                Busquem odontòlegs o una especialitat diferent de la nostra.
+                Buscamos odontólogos o una especialidad diferente a la nuestra
+              </p>
+            </div>
           </Col>
         </Row>
 
