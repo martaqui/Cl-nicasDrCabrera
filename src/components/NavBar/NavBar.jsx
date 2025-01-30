@@ -6,13 +6,12 @@ import { FaFacebookF, FaTwitter, FaInstagram } from "react-icons/fa";
 const NavBar = () => {
   return (
     <Navbar className="custom-navbar" expand="lg">
-      <Container className="navbar-content">
+      <Container>
         <Navbar.Brand href="#home">
           <img
             alt="Logo"
-            src="imagees/logo clinicas doctor juan cabrera.png"
+            src=" imagees/logo1.jpg"
             width="300"
-            height="600"
             className="logo"
           />
         </Navbar.Brand>
@@ -23,22 +22,25 @@ const NavBar = () => {
               href="https://es-es.facebook.com/ClinicasCabrera/"
               target="_blank"
               rel="noopener noreferrer"
+              className="icon"
             >
-              <FaFacebookF className="icon" />
+              <FaFacebookF size={"20px"} />
             </a>
             <a
               href="https://x.com/clinicascabrera?mx=2"
               target="_blank"
               rel="noopener noreferrer"
+              className="icon"
             >
-              <FaTwitter className="icon" />
+              <FaTwitter size={"18px"} />
             </a>
             <a
               href="https://www.instagram.com/clinicascabrera/"
               target="_blank"
               rel="noopener noreferrer"
+              className="icon"
             >
-              <FaInstagram className="icon" />
+              <FaInstagram size={"20px"} />
             </a>
           </div>
           <a href="mailto:CLINICAS@DRJUANCABRERA.COM" className="email-link">

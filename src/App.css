@@ -1,8 +1,13 @@
 .logo {
-  height: 6em;
-  padding: 1.5em;
   will-change: filter;
   transition: filter 300ms;
+  will-change: filter;
+  transition: filter 300ms;
+  display: block;
+  max-width: 200px;
+  max-height: 142px;
+  width: auto;
+  height: auto;
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);

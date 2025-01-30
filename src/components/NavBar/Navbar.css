@@ -1,22 +1,5 @@
 .custom-navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px 20px;
-  background-color: white !important; /* Fondo blanco */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-}
-
-.navbar-content {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  max-height: 120px;
-  margin-bottom: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 /* Contenedor para los íconos y el correo */
@@ -34,7 +17,6 @@
 }
 
 .icon {
-  font-size: 0.8rem; /* Íconos más pequeños */
   background-color: rgb(13, 228, 207);
   color: white;
   border-radius: 50%; /* Hace el círculo */
@@ -63,12 +45,13 @@
 }
 
 .email-link:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: rgb(10, 186, 168);
 }
 
 /* Texto debajo del correo */
 .clinic-location {
   font-size: 0.8rem;
-  color: black;
-  margin-top: -5px;
+  margin-top: 5px;
+  margin-bottom: 0;
 }
