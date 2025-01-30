@@ -43,9 +43,7 @@ const NavBar = () => {
               <FaInstagram size={"20px"} />
             </a>
           </div>
-          <a href="mailto:CLINICAS@DRJUANCABRERA.COM" className="email-link">
-            CLINICAS@DRJUANCABRERA.COM
-          </a>
+          <p className="clinic-number">Tel.93 205 66 14</p>
           <p className="clinic-location">CLÍNICA DE BARCELONA</p>
         </div>
       </Container>

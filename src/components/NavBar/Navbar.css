@@ -54,7 +54,10 @@
   margin-top: 5px;
   margin-bottom: 0;
 }
-
+.clinic-number {
+  margin-bottom: 0;
+  margin-top: 5px;
+}
 @media (max-width: 768px) {
   /* Para pantallas pequeñas (teléfonos) */
   .navbar .container {
