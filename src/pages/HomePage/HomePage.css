@@ -9,13 +9,14 @@
   font-weight: 90;
 }
 .image {
-  max-width: 100%;
+  max-width: 90%;
   border-radius: 8px;
 }
 
 .description {
   font-size: 1.2em;
   margin-left: 20px; /* Añadir espacio entre texto e imagen */
+  padding: 15px;
 }
 
 /* Disposición imagen a la izquierda y texto a la derecha */
