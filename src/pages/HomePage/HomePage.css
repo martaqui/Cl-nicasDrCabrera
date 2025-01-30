@@ -19,3 +19,13 @@
 }
 
 /* Disposición imagen a la izquierda y texto a la derecha */
+@media (max-width: 768px) {
+  /* Para pantallas pequeñas (teléfonos) */
+  .homepage-container {
+    margin: 10px;
+    padding: 10px;
+  }
+  .image {
+    margin-bottom: 15px;
+  }
+}
