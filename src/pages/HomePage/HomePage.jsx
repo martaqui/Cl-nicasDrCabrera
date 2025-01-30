@@ -1,9 +1,18 @@
-import React from "react";
-import { Row, Col } from "react-bootstrap";
+import React, { useState } from "react";
+import { Row, Col, Modal } from "react-bootstrap";
 import "./HomePage.css";
 import ContactForm from "../../components/ContactForm/ContactForm.jsx";
 
 const Homepage = () => {
+  const [show, setShow] = useState(false);
+  const [selectedImage, setSelectedImage] = useState("");
+
+  const handleShow = (imageSrc) => {
+    setSelectedImage(imageSrc);
+    setShow(true);
+  };
+
+  const handleClose = () => setShow(false);
   return (
     <div className="homepage-container">
       <h1>CLÍNICA DE BARCELONA</h1>
@@ -15,7 +24,8 @@ const Homepage = () => {
               src="/imagees/01.jpg"
               alt="Imagen 1"
               className="image"
-              style={{ width: "100%", borderRadius: "8px" }}
+              style={{ width: "100%", height: "300", borderRadius: "8px" }}
+              onClick={() => handleShow("/imagees/01.jpg")}
             />
           </Col>
           <Col xs={12} md={6}>
@@ -70,6 +80,7 @@ const Homepage = () => {
               alt="Imagen 2"
               className="image"
               style={{ width: "100%", borderRadius: "8px" }}
+              onClick={() => handleShow("/imagees/02.jpg")}
             />
           </Col>
         </Row>
@@ -81,6 +92,7 @@ const Homepage = () => {
               alt="Imagen 3"
               className="image"
               style={{ width: "100%", borderRadius: "8px" }}
+              onClick={() => handleShow("/imagees/05.jpg")}
             />
           </Col>
           <Col xs={12} md={6}>
@@ -136,6 +148,7 @@ const Homepage = () => {
               alt="Imagen 4"
               className="image"
               style={{ width: "100%", borderRadius: "8px" }}
+              onClick={() => handleShow("/imagees/12.jpg")}
             />
           </Col>
         </Row>
@@ -147,6 +160,7 @@ const Homepage = () => {
               alt="Imagen 5"
               className="image"
               style={{ width: "100%", borderRadius: "8px" }}
+              onClick={() => handleShow("/imagees/13.jpg")}
             />
           </Col>
           <Col xs={12} md={6}>
@@ -202,6 +216,7 @@ const Homepage = () => {
               alt="Imagen 6"
               className="image"
               style={{ width: "100%", borderRadius: "8px" }}
+              onClick={() => handleShow("/imagees/14.jpg")}
             />
           </Col>
         </Row>
@@ -212,6 +227,7 @@ const Homepage = () => {
               alt="Imagen 1"
               className="image"
               style={{ width: "100%", borderRadius: "8px" }}
+              onClick={() => handleShow("/imagees/Dr.Juan Cabrera 61.jpg")}
             />
           </Col>
           <Col xs={12} md={6}>
@@ -265,6 +281,7 @@ const Homepage = () => {
               alt="Imagen 6"
               className="image"
               style={{ width: "100%", borderRadius: "8px" }}
+              onClick={() => handleShow("/imagees/DSC_0143.JPG")}
             />
           </Col>
         </Row>
@@ -275,6 +292,7 @@ const Homepage = () => {
               alt="Imagen 1"
               className="image"
               style={{ width: "100%", borderRadius: "8px" }}
+              onClick={() => handleShow("/imagees/Imagen 048.jpg")}
             />
           </Col>
           <Col xs={12} md={6}>
@@ -317,6 +335,20 @@ const Homepage = () => {
             <ContactForm />
           </Col>
         </Row>
+        <Modal show={show} onHide={handleClose} centered size="lg">
+          <Modal.Body className="text-center">
+            <img
+              src={selectedImage}
+              alt="Imagen ampliada"
+              style={{
+                width: "100%",
+                maxHeight: "90vh",
+                objectFit: "contain",
+                borderRadius: "8px",
+              }}
+            />
+          </Modal.Body>
+        </Modal>
       </div>
     </div>
   );
