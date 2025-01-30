@@ -19,6 +19,12 @@
   padding: 15px;
 }
 
+.image-61 {
+  padding: 12px;
+  max-width: 90%;
+  border-radius: 8px;
+}
+
 /* Disposición imagen a la izquierda y texto a la derecha */
 @media (max-width: 768px) {
   /* Para pantallas pequeñas (teléfonos) */

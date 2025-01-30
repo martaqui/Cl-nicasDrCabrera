@@ -42,7 +42,6 @@ const Homepage = () => {
             </p>
           </Col>
         </Row>
-
         {/* Row 2: Imagen arriba, texto abajo */}
         <Row className="mb-4">
           <Col xs={12}>
@@ -56,7 +55,6 @@ const Homepage = () => {
           </Col>
           <Col xs={12}></Col>
         </Row>
-
         {/* Row 3: Imagen arriba, texto abajo */}
         <Row className="mb-4">
           <Col xs={12}>
@@ -79,7 +77,6 @@ const Homepage = () => {
             </p>
           </Col>
         </Row>
-
         {/* Row 4: Imagen arriba, texto abajo */}
         <Row className="mb-4">
           <Col xs={12}>
@@ -95,7 +92,6 @@ const Homepage = () => {
             <p className="description"></p>
           </Col>
         </Row>
-
         {/* Row 5: Imagen arriba, texto abajo */}
         <Row className="mb-4">
           <Col xs={12}>
@@ -107,21 +103,8 @@ const Homepage = () => {
               onClick={() => handleShow("/imagees/13.jpg")}
             />
           </Col>
-          <Col xs={12}>
-            {/* <p className="description">
-              {" "}
-              Oferim mobiliari, instal·lacions i serveis comuns. Disposem d'una
-              àmplia recepció, 2 sales d'espera, 4 lavabos (1 adaptat), 2
-              despatxos per a administració, magatzem, sala de reunions i
-              vestidor per al personal. <hr /> Ofrecemos mobiliario,
-              instalaciones y servicios comunes. Disponemos de amplia recepción,
-              2 salas de espera, 4 aseos (1 adaptado), 2 despachos para
-              administración, almacén, sala de reuniones y vestuario para
-              personal.
-            </p> */}
-          </Col>
         </Row>
-
+        {/* Row 6: Imagen arriba, texto abajo */}
         {/* Row 6: Imagen arriba, texto abajo */}
         <Row className="mb-4">
           <Col xs={12}>
@@ -133,23 +116,32 @@ const Homepage = () => {
               onClick={() => handleShow("/imagees/14.jpg")}
             />
           </Col>
+
+          {/* Imagen adicional agregada aquí para mantener la distribución */}
           <Col xs={12}>
-            {" "}
+            <img
+              src="/imagees/Imagen 061.jpg" // Reemplaza con la ruta correcta
+              alt="Imagen adicional"
+              className="image-61"
+              style={{ width: "100%", height: "auto", borderRadius: "8px" }}
+              onClick={() => handleShow("/imagees/Imagen 061.jpg")} // Ajusta la ruta de la imagen
+            />
+          </Col>
+
+          <Col xs={12}>
             <p className="description">
-              {" "}
               Oferim mobiliari, instal·lacions i serveis comuns. Disposem d'una
               àmplia recepció, 2 sales d'espera, 4 lavabos (1 adaptat), 2
               despatxos per a administració, magatzem, sala de reunions i
-              vestidor per al personal. <hr /> Ofrecemos mobiliario,
-              instalaciones y servicios comunes. Disponemos de amplia recepción,
-              2 salas de espera, 4 aseos (1 adaptado), 2 despachos para
-              administración, almacén, sala de reuniones y vestuario para
-              personal.
+              vestidor per al personal. <hr />
+              Ofrecemos mobiliario, instalaciones y servicios comunes.
+              Disponemos de amplia recepción, 2 salas de espera, 4 aseos (1
+              adaptado), 2 despachos para administración, almacén, sala de
+              reuniones y vestuario para personal.
             </p>
           </Col>
         </Row>
-
-        {/* Row 7: Imagen arriba, texto abajo */}
+        s{/* Row 7: Imagen arriba, texto abajo */}
         <Row className="mb-4">
           <Col xs={12}>
             <img
@@ -162,7 +154,6 @@ const Homepage = () => {
           </Col>
           <Col xs={12}></Col>
         </Row>
-
         {/* Row 8: Imagen arriba, texto abajo */}
         <Row className="mb-4">
           <Col xs={12}>
@@ -176,7 +167,6 @@ const Homepage = () => {
           </Col>
           <Col xs={12}></Col>
         </Row>
-
         {/* Row 9: Imagen arriba, texto abajo */}
         <Row className="mb-4">
           <Col xs={12}>
@@ -199,7 +189,6 @@ const Homepage = () => {
             </p>
           </Col>
         </Row>
-
         {/* Google Maps + Form */}
         <Row className="mb-4">
           <Col xs={12} md={6}>
@@ -229,12 +218,12 @@ const Homepage = () => {
               <h5></h5>
               <p>
                 Busquem odontòlegs o una especialitat diferent de la nostra.
+                <hr />
                 Buscamos odontólogos o una especialidad diferente a la nuestra
               </p>
             </div>
           </Col>
         </Row>
-
         {/* Modal */}
         <Modal show={show} onHide={handleClose} centered size="lg">
           <Modal.Body className="text-center">
