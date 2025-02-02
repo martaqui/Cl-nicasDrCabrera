@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Row, Col, Modal, Container } from "react-bootstrap";
 import "./HomePage.css";
-import ContactForm from "../../components/ContactForm/ContactForm";
+import ContactForm from "../../components/ContactForm/ContactForm.jsx";
 const Homepage = () => {
   const [show, setShow] = useState(false);
   const [selectedImage, setSelectedImage] = useState("");
@@ -127,7 +127,7 @@ const Homepage = () => {
       <Row className="mb-4 justify-content-center">
         <Col md={5} className="text-center">
           <img
-            src="/imagees/Imagen 061.jpg"
+            src="/imagees/ultima.jpg"
             alt="Imagen 1"
             className="image"
             style={{ maxWidth: "100%", borderRadius: "12px" }}
