@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Row, Col, Modal, Container } from "react-bootstrap";
 import "./HomePage.css";
-import ContactForm from "../../components/ContactForm/ContactForm.jsx";
+import ContactForm from "../../components/ContactForm/ContactForm";
 const Homepage = () => {
   const [show, setShow] = useState(false);
   const [selectedImage, setSelectedImage] = useState("");
@@ -53,7 +53,7 @@ const Homepage = () => {
         </Col>
         <Col md={4}>
           <img
-            src="/imagees/02.jpg"
+            src="/imagees/05.jpg"
             alt="Imagen 2"
             className="image"
             onClick={() => handleShow("/imagees/02.jpg")}
@@ -176,6 +176,9 @@ const Homepage = () => {
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
+        </Col>
+        <Col>
+          <ContactForm />
         </Col>
       </Row>
 
