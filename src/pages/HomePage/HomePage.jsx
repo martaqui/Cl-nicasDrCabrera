@@ -56,7 +56,7 @@ const Homepage = () => {
             src="/imagees/05.jpg"
             alt="Imagen 2"
             className="image"
-            onClick={() => handleShow("/imagees/02.jpg")}
+            onClick={() => handleShow("/imagees/05.jpg")}
           />
         </Col>
       </Row>
@@ -79,7 +79,7 @@ const Homepage = () => {
             src="/imagees/12.jpg"
             alt="Imagen 1"
             className="image"
-            onClick={() => handleShow("/imagees/01.jpg")}
+            onClick={() => handleShow("/imagees/12.jpg")}
           />
         </Col>
         <Col md={3}>
@@ -87,7 +87,7 @@ const Homepage = () => {
             src="/imagees/13.jpg"
             alt="Imagen 2"
             className="image"
-            onClick={() => handleShow("/imagees/02.jpg")}
+            onClick={() => handleShow("/imagees/13.jpg")}
           />
         </Col>
         <Col md={3}>
@@ -95,7 +95,7 @@ const Homepage = () => {
             src="/imagees/14.jpg"
             alt="Imagen 2"
             className="image"
-            onClick={() => handleShow("/imagees/02.jpg")}
+            onClick={() => handleShow("/imagees/14.jpg")}
           />
         </Col>
         <Col md={3}>
@@ -103,7 +103,7 @@ const Homepage = () => {
             src="/imagees/Imagen 060.jpg"
             alt="Imagen 2"
             className="image"
-            onClick={() => handleShow("/imagees/02.jpg")}
+            onClick={() => handleShow("/imagees/Imagen 060.jpg")}
           />
         </Col>
       </Row>
@@ -131,7 +131,7 @@ const Homepage = () => {
             alt="Imagen 1"
             className="image"
             style={{ maxWidth: "100%", borderRadius: "12px" }}
-            onClick={() => handleShow("/imagees/01.jpg")}
+            onClick={() => handleShow("/imagees/ultima.jpg")}
           />
         </Col>
         <Col md={5} className="text-center">
@@ -140,7 +140,7 @@ const Homepage = () => {
             alt="Imagen 2"
             className="image"
             style={{ maxWidth: "100%", borderRadius: "12px" }}
-            onClick={() => handleShow("/imagees/02.jpg")}
+            onClick={() => handleShow("/imagees/DSC_0143.JPG")}
           />
         </Col>
       </Row>
