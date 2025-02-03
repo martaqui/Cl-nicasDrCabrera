@@ -166,7 +166,7 @@ const Homepage = () => {
 
       {/* Google Maps */}
       <Row className="mb-4">
-        <Col>
+        <Col xs={12} md={6} className="mb-3 mb-md-0">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5985.417218265525!2d2.12306761115961!3d41.40213409496138!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4983ffe0cf823%3A0xbde504508f68331!2sCl%C3%ADnicas%20Dr.%20Juan%20Cabrera!5e0!3m2!1sen!2ses!4v1738247886614!5m2!1sen!2ses"
             width="100%"
@@ -177,7 +177,7 @@ const Homepage = () => {
             referrerPolicy="no-referrer-when-downgrade"
           ></iframe>
         </Col>
-        <Col>
+        <Col xs={12} md={6}>
           <ContactForm />
         </Col>
       </Row>
