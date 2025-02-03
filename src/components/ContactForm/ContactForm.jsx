@@ -70,7 +70,21 @@ const ContactForm = () => {
         />
         <ValidationError prefix="Email" field="email" errors={state.errors} />
       </div>
+      <div>
+        <input
+          id="mensaje"
+          name="mensaje"
+          placeholder="Escribe tu mensaje aquí..."
+          rows="4"
+          required
+        />
 
+        <ValidationError
+          prefix="Mensaje"
+          field="mensaje"
+          errors={state.errors}
+        />
+      </div>
       <button type="submit" disabled={state.submitting}>
         Enviar
       </button>
