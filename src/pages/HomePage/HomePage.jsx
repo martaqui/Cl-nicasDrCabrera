@@ -17,7 +17,19 @@ const Homepage = () => {
     <Container className="homepage-container">
       <h1>CLÍNICA DE BARCELONA</h1>
       <hr />
-
+      <div className="d-flex justify-content-center mb-4">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/2eQjThNReUw?si=PohRV7XXT_yAKPgX"
+          title="YouTube video player"
+          frameBorder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerPolicy="strict-origin-when-cross-origin"
+          allowFullScreen
+        ></iframe>
+      </div>
+      <hr />
       {/* Sección 1 */}
       <Row className="mb-4">
         <Col>
